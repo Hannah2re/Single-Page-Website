@@ -1,0 +1,497 @@
+/* 
+H1 = big twinkle font 
+H2 = explain font
+H4 = nav font
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+body {
+    background-color: #F5F4EF;
+}
+
+.mid {
+    max-width: 600px;
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: auto 2%;
+}
+
+.nav-link{
+    /* border: 1px solid black; */
+    margin: auto 0%;
+}
+
+.decoimg{
+    z-index: 1;
+    width: 100%;
+
+        /* border: solid 2px; */
+        position: absolute;
+        mix-blend-mode: multiply;
+
+}
+
+#deco1{
+    /* transform: scale(-1, 1); */
+    width: 20%;
+    /* border: solid 2px red; */
+    top:0%;
+    left:50%;
+    margin-bottom: 20%;
+    transform:translate(0%,0%) 
+}
+
+#deco2{
+    width: 30%;
+    transform:translate(120%,235%) 
+}
+
+#deco3{
+    width: 20%;
+    transform:translate(-280%,605%) 
+}
+
+#deco4{
+    width: 25%;
+    transform:translate(-0%,1055%) 
+}
+
+
+
+nav {
+    max-width: 100vw;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    height: 15%;
+}
+
+h3 {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    color: white;
+}
+
+h4 {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8vh;
+
+    line-height: 80%;
+    
+}
+
+h5 {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    color: white;
+
+    line-height: 80%;
+    
+}
+
+
+h2 {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+p {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8vw;
+}
+
+.img {
+    margin: 0% 2% 0% 0%;
+}
+
+.hero {
+    position: relative;
+}
+
+.intext {
+    position: absolute;
+    z-index: 1;
+    /* top: 20px;
+    left: 20px; */
+    font-size: 25vw;
+    text-align: right;
+    line-height: 70%;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%)
+}
+
+
+.twinkle {
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFC700
+}
+
+.titletext {
+    font-size: 15vw;
+    margin: 20% 12% 10%;
+}
+
+
+
+
+.lifeterm1 {
+    /* border: solid 2px; */
+    max-width: 100vw;
+    margin: 0% 5%;
+    width: 90%;
+    display: flex;
+    margin-bottom: 5%;
+
+}
+
+.imagebox {
+    /* border: solid 2px red; */
+    width: 68%;
+}
+
+.textbox {
+    /* border: solid 2px; */
+    width: 32%
+}
+
+
+
+
+
+.lifeterm2 {
+    /* border: solid 2px; */
+    max-width: 100vw;
+    margin: 0% 5%;
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+
+.textbox2 {
+    /* border: solid 2px; */
+    width: 100%;
+}
+
+.textbox2 div {
+    /* border: solid 2px; */
+    margin: 25% 10% 0% 0%;
+}
+
+.lifeterm3 {
+    /* border: solid 2px; */
+    margin-top: 10%;
+
+    max-width: 100vw;
+    margin: 0% 10%;
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.textbox3 {
+    /* border: solid 2px; */
+    width: 35%;
+}
+
+.textbox3 div {
+    /* border: solid 2px; */
+    margin: 40% 0% 0% 0%;
+}
+
+
+.lifeterm4 {
+    margin-top: 10%;
+    /* border: solid 2px; */
+    max-width: 100vw;
+    margin: 0% 5%;
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.block2 {
+    /* border: solid 2px; */
+    width: 55%;
+}
+
+/* 
+.textbox4{
+    border: solid 2px;
+    width: 90%;
+} */
+
+.textbox4 div {
+    margin: 30% 0% 0% 5%;
+}
+
+
+
+
+.button1 {
+    width: 20vw;
+    height: 8vw;
+    background-color: #FFC700;
+    color: white;
+    border-radius: 4vw;
+
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+
+    border: none;
+
+    position: relative;
+    margin: 8% 40% 20% 40%
+}
+
+.titletext2 {
+    font-size: 15vw;
+    margin: 10% 23% 0% 23%;
+}
+
+
+.vertical-scroll {
+    position: relative;
+    bottom: 16vw;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+
+
+}
+
+.vertical-scroll div {
+    position: relative;
+    right: 5%;
+}
+
+.hey {
+    display: inline-block;
+}
+
+
+
+
+footer {
+
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block3 {
+    width: 70%;
+    /* border: solid 2px; */
+    margin: 1% 3% 3%;
+}
+
+.nav-link2 {
+    width: 12%;
+    /* border: solid 2px; */
+    
+}
+
+.nav-link2 div {
+    /* border: solid 10px red; */
+    margin: 130% 0% 0%;
+    color: white;
+}
+
+/* .bottom{
+    border: solid 2px;
+} */
+
+.bottom div{
+    /* border: solid 4px; */
+    margin: 15% 0% 0%;
+}
+
+
+
+
+
+
+.bio{
+    max-width: 100vw;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+}
+
+.imagecontainer{
+    position: relative;
+    height: 100%;
+    
+}
+
+#img{
+    height:100%;
+    width: auto;
+}
+
+.content{
+    /* border: 10px solid red; */
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+
+button{
+    background-color: #F5F4EF;
+    border: none;
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    color: grey;
+    line-height: 150%;
+}
+
+.button{
+    /* border: 2px solid black; */
+
+
+}
+
+#textDisplay{
+    /* border: 2px solid pink; */
+    font-size: 1.5vw;
+
+}
+
+.biotext{
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1080px) {
+    /* body {
+        background-color: white;
+    } */
+    
+    nav {
+        max-width: 100vw;
+        width: 100%;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        z-index: 2;
+        height: 10%;
+    }
+
+    .nav-link {
+        /* border: 1px solid black ; */
+        margin: auto 2%;
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+    }
+
+    h4 {
+        font-family: "Noto Serif", serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.3vw;
+    }
+    
+    .bio{
+        max-width: 100vw;
+        /* width: 100%; */
+        /* border: 1px solid black; */
+        display: block;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .imagecontainer{
+        position: relative;
+        width: 100%;
+        height: auto;
+            /* border: 1px solid black; */
+        
+    }
+    
+    #img{
+        width:100%;
+        height: auto;
+    }
+
+    .content{
+        /* border: solid red; */
+        width: auto
+
+    }
+
+    #textDisplay{
+        /* border: 2px solid pink; */
+        font-size: 2.3vw;
+    
+    }
+
+    
+    /* .bio{
+        max-width: 100vw;
+        width: 100%;
+        position: relative;
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        height: 85%;
+    }
+
+
+    .imagecontainer{
+        border: 1px solid black;
+        position: absolute;
+        width: 99%;
+        height: 100%;
+    }
+    
+
+    #textDisplay{
+        border: 2px solid pink;
+        font-size: 1.5vw;
+    
+    }
+    
+    .biotext{
+        border: 2px solid blue;
+        width: 100%;
+        margin: auto;
+    } */
+
+}
