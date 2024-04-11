@@ -5,37 +5,37 @@ const textMap = {
 };
 
 
-document.getElementById("btn1").addEventListener("click", function() {
+document.getElementById("btn1").addEventListener("click", function () {
   document.getElementById("img").src = "Images/image 4.png";
 });
 
-document.getElementById("btn2").addEventListener("click", function() {
+document.getElementById("btn2").addEventListener("click", function () {
   document.getElementById("img").src = "Images/bio2.png";
 });
 
-document.getElementById("btn3").addEventListener("click", function() {
+document.getElementById("btn3").addEventListener("click", function () {
   document.getElementById("img").src = "Images/image 5.png";
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   document.getElementById('btn1').style.color = 'black';
   document.getElementById('btn1').style.fontSize = '3vw';
   const firstText = textMap['text1'];
-    document.getElementById('textDisplay').innerText = firstText;
+  document.getElementById('textDisplay').innerText = firstText;
 });
 
 function changeColor(buttonId, textKey) {
 
-  document.getElementById('btn1').style.color = 'grey';
-  document.getElementById('btn2').style.color = 'grey';
-  document.getElementById('btn3').style.color = 'grey';
-  
+  document.getElementById('btn1').style.color = 'silver';
+  document.getElementById('btn2').style.color = 'silver';
+  document.getElementById('btn3').style.color = 'silver';
+
   document.getElementById('btn1').style.fontSize = '2vw';
   document.getElementById('btn2').style.fontSize = '2vw';
   document.getElementById('btn3').style.fontSize = '2vw';
-  
-  
+
+
 
   document.getElementById(buttonId).style.color = 'black';
   document.getElementById(buttonId).style.fontSize = '3vw';
