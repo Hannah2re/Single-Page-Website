@@ -11,11 +11,10 @@ H4 = nav font
 
 .vertical-scroll::-webkit-scrollbar-track {
     background-color: #dee2e6;
-
 }
-.vertical-scroll::-webkit-scrollbar-thumb { 
-    background-color: #FFC700;
 
+.vertical-scroll::-webkit-scrollbar-thumb {
+    background-color: #FFC700;
 }
 
 html {
@@ -34,18 +33,10 @@ body {
 .mid {
     max-width: 600px;
     width: 50%;
-    /* border: 1px solid black; */
     margin: auto 2%;
 }
 
-/* .blank{
-    height: 15%;
-    max-width: 100vw;
-    width: 100%;
-} */
-
 .nav-link {
-    /* border: 1px solid black; */
     margin: auto 1%;
     display: flex;
     justify-content: space-between;
@@ -53,19 +44,13 @@ body {
 }
 
 .decoimg {
-    z-index: 1;
     width: 100%;
-
-    /* border: solid 2px; */
     position: absolute;
     mix-blend-mode: multiply;
-
 }
 
 #deco1 {
-    /* transform: scale(-1, 1); */
     width: 20%;
-    /* border: solid 2px red; */
     top: 0%;
     left: 50%;
     margin-bottom: 20%;
@@ -77,31 +62,18 @@ body {
     transform: translate(120%, 235%)
 }
 
-#deco3 {
-    width: 20%;
-    transform: translate(-280%, 605%)
-}
-
-#deco4 {
-    width: 25%;
-    transform: translate(-0%, 1055%)
-}
-
-
-
-
 nav {
-    top:0%;
+    top: 0%;
     max-width: 100vw;
-    width:100%;
+    width: 100%;
     border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     z-index: 2;
     height: 15%;
     background-color: #F5F4EF;
-    /* position: fixed; */
     max-height: 15vw;
+    position: relative;
 }
 
 h3 {
@@ -117,9 +89,6 @@ h4 {
     font-style: normal;
     font-weight: 300;
     font-size: 2.5vh;
-
-    /* line-height: 80%; */
-
 }
 
 h5 {
@@ -128,9 +97,7 @@ h5 {
     font-weight: 300;
     font-size: 1.8vw;
     color: white;
-
     line-height: 80%;
-
 }
 
 
@@ -154,34 +121,25 @@ p {
 
 .hero {
     position: relative;
-    /* border: 1px solid black; */
     height: 85%;
     width: 100%;
     overflow: hidden;
     max-height: 120vw;
 }
 
-#tovepic{
+#tovepic {
     height: auto;
     width: 100%;
-    /* object-fit: cover;
-    position: absolute; */
-
 }
 
 .intext {
     position: absolute;
     z-index: 1;
-    /* top: 20px;
-    left: 20px; */
     font-size: 25vw;
     text-align: right;
     line-height: 70%;
-    /* top: 0%;
-    left: 52%; */
     transform: translate(-102%, 20%)
 }
-
 
 .twinkle {
     font-family: "Twinkle Star", cursive;
@@ -197,38 +155,29 @@ p {
 
 
 
-
 .lifeterm1 {
-    /* border: solid 2px; */
     max-width: 100vw;
     margin: 0% 5%;
     width: 90%;
     display: flex;
     margin-bottom: 5%;
-
 }
 
-.img2{
+.img2 {
     width: 57%;
 }
 
 .imagebox {
-    /* border: solid 2px red; */
     width: 68%;
-    
 }
 
 .textbox {
-    /* border: solid 2px; */
     width: 32%
 }
 
 
 
-
-
 .lifeterm2 {
-    /* border: solid 2px; */
     max-width: 100vw;
     margin: 0% 5%;
     width: 90%;
@@ -237,21 +186,18 @@ p {
     margin-bottom: 10%;
 }
 
-
 .textbox2 {
-    /* border: solid 2px; */
     width: 100%;
 }
 
 .textbox2 div {
-    /* border: solid 2px; */
     margin: 25% 10% 0% 0%;
 }
 
-.lifeterm3 {
-    /* border: solid 2px; */
-    margin-top: 10%;
 
+
+.lifeterm3 {
+    margin-top: 10%;
     max-width: 100vw;
     margin: 0% 10%;
     width: 80%;
@@ -261,19 +207,17 @@ p {
 }
 
 .textbox3 {
-    /* border: solid 2px; */
     width: 35%;
 }
 
 .textbox3 div {
-    /* border: solid 2px; */
     margin: 40% 0% 0% 0%;
 }
 
 
+
 .lifeterm4 {
     margin-top: 10%;
-    /* border: solid 2px; */
     max-width: 100vw;
     margin: 0% 5%;
     width: 90%;
@@ -283,20 +227,14 @@ p {
 }
 
 .block2 {
-    /* border: solid 2px; */
     width: 55%;
 }
 
-/* 
-.textbox4{
-    border: solid 2px;
-    width: 90%;
-} */
+
 
 .textbox4 div {
     margin: 30% 0% 0% 5%;
 }
-
 
 
 
@@ -306,14 +244,11 @@ p {
     background-color: #FFC700;
     color: white;
     border-radius: 4vw;
-
     font-family: "Noto Serif", serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2vw;
-
     border: none;
-
     position: relative;
     margin: 8% 40% 20% 40%
 }
@@ -324,16 +259,13 @@ p {
 }
 
 
+
 .vertical-scroll {
     position: relative;
     bottom: 16vw;
     width: 100%;
     white-space: nowrap;
     overflow-x: scroll;
-    /* scrollbar-width: none; */
-
-
-
 }
 
 .vertical-scroll div {
@@ -347,54 +279,37 @@ p {
 
 
 
-
 footer {
     background-color: #202020;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .block3 {
     width: 70%;
-    /* border: solid 2px pink; */
     margin: 1% 3% 3%;
 }
 
 .nav-link2 {
     width: 40%;
     display: block;
-    /* border: solid 2px blue; */
-
 }
 
 .nav-link2 div {
-    /* border: solid 10px red; */
     margin: 58% 12% 0% 0%;
     color: white;
     display: flex;
     justify-content: space-between;
-    
 }
 
-/* .bottom{
-    border: solid 2px;
-} */
-
 .bottom div {
-    /* border: solid 4px; */
     margin: 15% 0% 0%;
 }
 
 
 
-
-
-
 .bio {
     max-width: 100vw;
-    /* width: 100%; */
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     height: 85%;
@@ -403,7 +318,6 @@ footer {
 .imagecontainer {
     position: relative;
     height: 100%;
-
 }
 
 #img {
@@ -412,7 +326,6 @@ footer {
 }
 
 .content {
-    /* border: 10px solid red; */
     width: 100%;
     padding: 5%;
     margin: auto;
@@ -429,38 +342,18 @@ button {
     line-height: 150%;
 }
 
-.button {
-    /* border: 2px solid black; */
-
-
-}
-
 #textDisplay {
-    /* border: 2px solid pink; */
     font-size: 1.5vw;
-
 }
 
 .biotext {
-    /* border: 2px solid blue; */
     width: 100%;
     margin: auto;
 }
 
-/* .nav-link {
-
-    margin: auto 1%;
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-} */
 
 
 @media screen and (max-width: 1080px) {
-    /* body {
-        background-color: white;
-    } */
-
     nav {
         max-width: 100vw;
         width: 100%;
@@ -472,7 +365,6 @@ button {
     }
 
     .nav-link {
-        /* border: 1px solid black ; */
         margin: auto 2%;
         display: flex;
         justify-content: space-between;
@@ -488,8 +380,6 @@ button {
 
     .bio {
         max-width: 100vw;
-        /* width: 100%; */
-        /* border: 1px solid black; */
         display: block;
         justify-content: space-between;
         height: auto;
@@ -499,8 +389,6 @@ button {
         position: relative;
         width: 100%;
         height: auto;
-        /* border: 1px solid black; */
-
     }
 
     #img {
@@ -509,17 +397,14 @@ button {
     }
 
     .content {
-        /* border: solid red; */
         width: auto
     }
 
     #textDisplay {
-        /* border: 2px solid pink; */
         font-size: 2.3vw;
-
     }
 
-    .blank{
+    .blank {
         height: 10%;
         max-width: 100vw;
         width: 100%;
@@ -527,13 +412,11 @@ button {
 
     .hero {
         position: relative;
-        /* border: 1px solid black; */
         height: 90%;
         width: 100%;
         overflow: hidden;
         max-height: 125vw;
     }
-
 
     h2 {
         font-family: "Noto Serif", serif;
@@ -549,11 +432,11 @@ button {
         font-size: 2.3vw;
     }
 
-    .img1{
+    .img1 {
         display: none;
     }
 
-    .img2{
+    .img2 {
         width: 93%;
     }
 
